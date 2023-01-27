@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This prints using "until"
+x=10
+until [ $x -lt 1 ];
+do
+     echo "Best School"
+     x=$((x - 1))
+done
