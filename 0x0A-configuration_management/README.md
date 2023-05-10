@@ -1,11 +1,7 @@
-## Puppet
+# 0x0A. Configuration management
 
-Using Puppet, create a file in /tmp.
-
-Requirements:
-
-File path is /tmp/school
-File permission is 0744
-File owner is www-data
-File group is www-data
-File contains I love Puppet
+| TASK | FILE                                               | DESCRIPTION                      | 
+| ---- | -------------------------------------------------- | -------------------------------- |
+| 0    | [0-create_a_file.pp](./0-create_a_file.pp)         | creates a file in /tmp           |
+| 1    | [1-install_a_package.pp](./1-install_a_package.pp) | installs flask from pip3         |
+| 2    | [2-execute_a_command.pp](./2-execute_a_command.pp) | kills a process named killmenow. |
